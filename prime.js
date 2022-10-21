@@ -1,5 +1,5 @@
 let N=13;
-function prime(N){
+
     count=0;
   for(i=1;i<=N;i++){
     if(N%i===0){
@@ -12,9 +12,5 @@ function prime(N){
     else {
       console.log("Not Prime");
     }
-  }
-  
-  
-  prime();
   
   
