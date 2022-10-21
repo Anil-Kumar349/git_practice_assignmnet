@@ -2,7 +2,7 @@
 let str="madam"
 
 let rev="";
-for(i=0;i>=str.length;i--){
+for(i=str.length-1;i>=0;i--){
     rev+=str[i];
 }
 if(str==rev){
